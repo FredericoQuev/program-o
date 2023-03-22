@@ -2,8 +2,8 @@ body, ul , li, p{
     margin: 0px;
     padding: 0px;
     list-style: none;   /* tira a marcação do link (bolinha por exemplo) */
-    font size: 1.2rem;
-    font family: arial;
+    font-size: 1.2rem;
+    font-family: arial;
 }
 
 /* Define o tamanho da imagem logo - largura */
@@ -14,18 +14,16 @@ body, ul , li, p{
 /* Define as características da TAG ancor */
 a{
     text-decoration: none;  /* tira o sublinhado do link */
-    color: white;     /* Cor do texto */
+    color: rgb(144, 255, 172);     /* Cor do texto */
 }
 
 /* Define as características do header */
 .header{
     /* Cor de fundo */
-    background-color: black;
+    background-color: rgb(166, 245, 159);
     /* display flexível */
     display: flex;
-    /*organizado em linha */
-    flex-wrap: wrap;
-    /* Espaçamento entre os textos */
+    /*organizado em linha */ 
     justify-content: space-between;
     /* centralizado */
     align-items: center;
@@ -33,4 +31,15 @@ a{
     padding: 20px;
 }
 
-.menu
+.menu li{
+    display: flex;
+}
+/*distancia entre as palavras do link*/
+.menu li{
+    margin-left: 10px;
+}
+.menu li a{
+    display: block;
+    padding: 10px;
+    background-color: #95e2a8;
+}
